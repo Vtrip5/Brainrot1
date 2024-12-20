@@ -1,0 +1,131 @@
+h1 {
+color:black;
+position:absolute;
+}
+
+#sigma{
+    color:red;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    position:relative;
+}
+.sigma{
+  color:red;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  position:relative;
+}
+    
+.skibidi{
+    color:blue;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:lighter;
+    position: relative;
+}
+
+.rizz {
+color: darkgreen;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-style: italic;
+position: relative;
+}
+
+.yap {
+color: tomato;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-style: inherit;
+font-weight: bolder;
+position: relative;
+}
+ul {
+    list-style-type: none;
+    margin: 15 15;
+    padding: 10 10;
+    overflow: hidden;
+    background-color: navy;
+    position: relative;
+  }
+
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(15, 86, 240);
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #0b0d0e81;
+  }
+
+  img {
+margin: 0;
+padding: 20 20;
+position: relative;
+width: 200px;
+animation-name: brainrot;
+animation-duration: 4s;
+animation-delay: 2s;
+animation-direction: alternate;
+  }
+
+  @keyframes brainrot {
+    0%   {left:0px; top:0px;}
+    25%  {left:200px; top:0px;}
+    50%  {left:200px; top:200px;}
+    75%  {left:0px; top:200px;}
+    100% {left:0px; top:0px;}
+  }
+
+  .rizz {
+    margin: 0;
+    padding: 20 20;
+    position: relative;
+    width: 200px;
+    animation-name: rizz;
+    animation-duration: 2s;
+  }
+
+  @keyframes rizz {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(1080deg);
+    }
+  }
+
+  .sigma {
+    margin: 0;
+    padding: 20 20;
+    position: relative;
+    width: 200px;
+    animation-name: sigma;
+    animation-duration: 2s;
+    animation-direction: reverse;
+  }
+  @keyframes sigma {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(1080deg);
+    }
+  }
+  
+  .red{
+    background-color: #ff0000;
+  }
+  .green{
+    background-color: green;
+  }
+  .pink{
+    background-color: pink;
+  }
+  .yellow{
+    background-color: yellow;
+  }
